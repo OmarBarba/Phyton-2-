@@ -1,0 +1,23 @@
+En este texto se explicara cada uno de los presentes ordenamientos de manera 
+en la cual se premite comprender mejor el funcionamiento de cada ordenamiento
+    Insertion Sort (Ordenamiento por Inserción - 01_InsertionSort.py): Insertion Sort es un algoritmo de ordenamiento que funciona dividiendo la lista en dos partes: una parte ordenada y otra parte desordenada. Comienza con un elemento en la parte ordenada e inserta cada elemento de la parte desordenada en su posición correcta en la parte ordenada, moviendo los elementos mayores hacia la derecha.
+
+    Selection Sort (Ordenamiento por Selección - 02_SelectionSort.py): Selection Sort es un algoritmo de ordenamiento que busca el elemento mínimo en la lista y lo coloca al principio. Luego, busca el siguiente elemento mínimo en la parte restante y lo coloca después del primero. Este proceso se repite hasta que la lista esté completamente ordenada.
+
+    Intercambio (03_Intercambio.py): Este nombre genérico podría referirse a varios algoritmos de ordenamiento que involucran intercambiar elementos en la lista. Un ejemplo sería el Bubble Sort, donde se comparan y ajustan pares de elementos adyacentes hasta que la lista esté ordenada.
+
+    Ordenamiento de Árbol (04_Arbol.py): Este podría ser una implementación de un algoritmo de ordenamiento basado en un árbol, como el Binary Tree Sort o el Tree Sort. Estos algoritmos utilizan un árbol binario de búsqueda para insertar y luego recorrer los elementos en orden.
+
+    Quick Sort (06_QuickSort.py): Quick Sort es un algoritmo de ordenamiento que utiliza una estrategia de "divide y conquista". Se elige un elemento pivote, se divide la lista en dos subconjuntos (elementos menores y mayores que el pivote) y se ordenan recursivamente ambos subconjuntos.
+
+    Merge Sort (06_MergeSort.py): Merge Sort es otro algoritmo de "divide y conquista" que divide la lista en dos mitades, ordena cada mitad y luego fusiona las dos mitades ordenadas en una lista ordenada más grande.
+
+    Radix Sort (07_RadixSort.py): Radix Sort es un algoritmo de ordenamiento que ordena elementos basándose en sus dígitos o bytes, comenzando por los dígitos menos significativos y avanzando hacia los más significativos.
+
+    Heap Sort (08_HeapSort.py): Heap Sort utiliza una estructura de datos llamada "montículo" (heap) para ordenar los elementos. Se construye un montículo, se extrae repetidamente el elemento máximo y se coloca al final de la lista, reduciendo el tamaño del montículo en cada iteración.
+
+    Tim Sort (09_TimSort.py): Tim Sort es un algoritmo híbrido que combina las técnicas de ordenamiento por inserción y ordenamiento por mezcla. Es el algoritmo de ordenamiento predeterminado en Python.
+
+    Shell Sort (10_ShellSort.py): Shell Sort es una variante del Insertion Sort que mejora su rendimiento al comparar y mover elementos distanciados por un espacio llamado "gap". El algoritmo comienza con un gap grande y lo reduce gradualmente hasta llegar a 1, momento en el que se convierte en un Insertion Sort estándar.
+
+Cada uno de estos algoritmos tiene sus propias características y ventajas en diferentes situaciones. La elección del algoritmo de ordenamiento adecuado depende del tipo de datos que estés ordenando y de los requisitos de rendimiento específicos de tu aplicación.
