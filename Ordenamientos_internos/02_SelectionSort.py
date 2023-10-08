@@ -1,3 +1,4 @@
+# Ordenamiento selection_sort
 def selection_sort(arr):
     # Recorremos la lista desde el inicio hasta el penúltimo elemento.
     for i in range(len(arr) - 1):
@@ -17,3 +18,4 @@ lista = [64, 25, 12, 22, 11]
 print("Lista ordenada:", lista)
 selection_sort(lista)
 print("Lista ordenada:", lista)
+
