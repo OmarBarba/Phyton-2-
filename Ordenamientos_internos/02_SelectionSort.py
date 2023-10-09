@@ -19,3 +19,4 @@ print("Lista ordenada:", lista)
 selection_sort(lista)
 print("Lista ordenada:", lista)
 
+
