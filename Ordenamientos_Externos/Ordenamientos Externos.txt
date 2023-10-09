@@ -1,0 +1,26 @@
+
+Ordenamientos Externos
+    Straight Merging (Mezcla Directa):
+        Este algoritmo divide el archivo en bloques más pequeños.
+        Luego, fusiona los bloques de manera secuencial para producir un archivo ordenado.
+        Es simple pero ineficiente para archivos grandes debido a la cantidad de operaciones de E/S.
+
+    Natural Merging (Mezcla Natural):
+        Divide el archivo en runs (secuencias de datos ordenados) de manera natural.
+        Luego, fusiona estos runs en un solo archivo ordenado utilizando una estructura de datos tipo cola de prioridad.
+
+    Balanced Multiway Merging (Mezcla Multirruta Equilibrada):
+        Similar al Natural Merging, pero se esfuerza por equilibrar la cantidad de runs en cada fase de fusión.
+        Esto evita que una fase tenga una cantidad desproporcionada de runs, lo que podría reducir el rendimiento.
+
+    Polyphase Sort (Ordenamiento Polifásico):
+        Divide el archivo en bloques y los ordena en fases iniciales.
+        Luego, combina y distribuye los bloques en varias fases hasta obtener un archivo ordenado.
+        Se llama "polifásico" porque las fases se ejecutan en paralelo.
+
+    Distribution of Initial Runs (Distribución de Ejecuciones Iniciales):
+        Divide el archivo en ejecuciones (runs) iniciales, que son secuencias de datos ordenados.
+        Luego, aplica un proceso de fusión para combinar estas ejecuciones en un archivo ordenado.
+        Es eficiente para archivos grandes ya que minimiza las operaciones de E/S.
+
+Cada uno de estos algoritmos tiene sus propias ventajas y desventajas y es adecuado para diferentes situaciones y tamaños de datos. La elección del algoritmo depende de factores como el rendimiento deseado, la disponibilidad de recursos y las características específicas de los datos que estás ordenando.
